@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Great+Vibes&family=Merienda:wght@300&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+@font-face {
+  font-family: Timberline;
+  src: url('Timberline.ttf');
+}
+html,body{
+    margin: 0;
+    background-color: black;
+    
+}
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.banner-content{
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Timberline', cursive;
+  }
+.banner-content h1{
+    font-weight: normal!important;
+    font-size: 150px;
+    color: white;
+    text-shadow: 3px 3px 5px rgb(228, 216, 185);
+}
+.banner-content2{
+  color: white;
+  z-index: 1000;
+  position: absolute;
+  display: flex;
+  top: 600px;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(228, 216, 185);
+}
+.banner-content h1{
+  font-weight: normal!important;
+  font-size: 150px;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(228, 216, 185);
+}
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.88);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.navigation-bar{
+  background: url('banner.jpg');
+  display: flex;
+  top: -20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2000;
+  width: 100%;
+  font-family: 'Merienda', cursive;
+  
+}
+.nav-links{
+  list-style: none;
+  display: flex;
+}
+.nav-links li{
+  padding: 10px;
+}
+.nav-links li a{
+  text-decoration: none;
+  display: flex;
+  color: #D6C1BB;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px 10px;
+}
+.nav-links li a:hover{
+  transition: 0.5s;
+  font-weight: bold;
+  color:  #b99c71;
+  text-decoration: underline;
+}
+.footer{
+  padding: 40px 0;
+  background-color: #fff;
+  position: absolute;
+  bottom: -4800px;
+  width:100%;
+  height:200px;   
+}
+
+.footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4d4c4d;
+}
+
+.footer .social a{
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+.footer .social a:hover{
+  opacity: 0.9;
+}
+
+.footer ul{
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a{
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer .copyright{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+.comment-box{
+  top: 5200px;
+  left: 950px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+.comment-box h2{
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.comment-box input{
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #b99c71;
+}
+
+.comment-box input:focus{
+  border: 10px solid white;
+  outline: 0;
+}
+
+.comment-box textarea{
+  width: 100%;
+  height: 150px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #b99c71;
+}
+
+.comment-box textarea:focus{
+  border: 10px solid white;
+  outline: 0;
+}
+
+.comment-box button{
+  border: 0;
+  padding: 10px 30px;
+  background: #b99c71;
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+}
+
+.comment-box button:hover{
+  background-color: #718a8e;
+}
+.map{
+  background-image: url('bg.jpg');
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  z-index: 2000;
+  width: 100%;
+  margin: 0px;
+}
+.map h1{
+  color: white;
+  margin: auto;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  font-size: 150px;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(228, 216, 185);
+  padding: 80px;
+}
+.map p{
+  margin: auto;
+  text-align: center;
+  width: 750px;
+  font-family: 'Merienda', cursive;
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px 5px rgb(228, 216, 185);
+}
+.map-sign p{
+  margin: auto;
+  text-align: right;
+  font-family: 'Great Vibes', cursive;
+
+}
+
+#slideshow {
+  text-align: center;
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 10px auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: url("4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-child(2) {
+  background: url("3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-child(3) {
+  background: url("2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-child(4) {
+  background: url("6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+.menu-cover{
+  background: url("content-bg.jpg");
+  background-size: cover;
+  padding: 40px 0px;
+}
+.menu{
+  width: 720px;
+  margin: auto;
+  font-weight: normal;
+}
+.menu h1{
+  color: #b99c71;
+  font-weight: normal;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 3px 3px 5px rgb(228, 216, 185);
+  text-align: center;
+  font-size: 30px;
+
+}
+.menu-h1 h1{
+  color: #b99c71;
+  font-weight: normal;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 3px 3px 5px rgb(228, 216, 185);
+  text-align: center;
+  font-size: 150px;
+  margin: auto;
+}
+
+.menu p{
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 3px 3px 5px rgb(228, 216, 185);
+}
+.menu-item-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu-item{
+  width: 50%;
+  text-align: left;
+}
+.menu-item-desc h1{
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+  margin: auto;
+}
